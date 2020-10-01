@@ -188,8 +188,8 @@ tmux_conf_theme_status_left_bg='colour173,colour108,#00afff'  # yellow, pink, wh
 tmux_conf_theme_status_left_attr='bold,none,none'
 
 # status right style
-tmux_conf_theme_status_right_fg='colour245,colour235,colour235' # light gray, white, black
-tmux_conf_theme_status_right_bg='colour235,colour167,colour109' # dark gray, red, white
+tmux_conf_theme_status_right_fg='colour180,colour235,colour235' # light gray, white, black
+tmux_conf_theme_status_right_bg='colour235,colour143,colour175' # dark gray, red, white
 tmux_conf_theme_status_right_attr='none,none,bold'
 
 # pairing indicator
@@ -217,9 +217,9 @@ tmux_conf_theme_synchronized_bg='none'
 tmux_conf_theme_synchronized_attr='none'
 
 # battery bar symbols
-tmux_conf_battery_bar_symbol_full='◼'
-tmux_conf_battery_bar_symbol_empty='◻'
-#tmux_conf_battery_bar_symbol_full='♥'
+tmux_conf_battery_bar_symbol_full='■'
+tmux_conf_battery_bar_symbol_empty='□'
+#tmux_conf_battery_bar_symbol_full='█'
 #tmux_conf_battery_bar_symbol_empty='·'
 
 # battery bar length (in number of symbols), possible values are:
@@ -231,8 +231,8 @@ tmux_conf_battery_bar_length='auto'
 #   - gradient (default)
 #   - heat
 #   - 'colour_full_fg,colour_empty_fg,colour_bg'
-tmux_conf_battery_bar_palette='heat'
-#tmux_conf_battery_bar_palette='#d70000,#e4e4e4,#000000'   # red, white, black
+#tmux_conf_battery_bar_palette='heat'
+tmux_conf_battery_bar_palette='colour143,colour167,colour235'   # red, white, black
 
 # battery hbar palette, possible values are:
 #   - gradient (default)
@@ -277,7 +277,7 @@ tmux_conf_copy_to_os_clipboard=false
 #set -g history-limit 10000
 
 # start with mouse mode enabled
-#set -g mouse on
+set -g mouse on
 
 # force Vi mode
 #   really you should export VISUAL or EDITOR environment variable, see manual

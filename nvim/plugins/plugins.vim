@@ -24,6 +24,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
      Plug 'junegunn/fzf.vim'
      Plug 'airblade/vim-rooter'
      Plug 'liuchengxu/vim-which-key'
+     Plug 'mhinz/vim-startify'
 
 call plug#end()
 
