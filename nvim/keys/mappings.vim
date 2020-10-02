@@ -42,3 +42,5 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
+map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
